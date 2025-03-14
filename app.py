@@ -1,8 +1,7 @@
-import streamlit as st  # ✅ Keep imports after set_page_config()
+import streamlit as st  
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# ✅ Move this to the very top!
 st.set_page_config(page_title="Personal Finance Tracker", layout="wide")
 
 # Title
